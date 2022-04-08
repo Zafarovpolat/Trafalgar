@@ -66,8 +66,13 @@ main {
 /* header */
 
 .header {
-  margin: 135px 0px 67px 0px;
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  margin-bottom: 67px;
+  padding: 5px 0px 5px 0px;
   display: flex;
+  z-index: 1;
   justify-content: center;
 }
 
